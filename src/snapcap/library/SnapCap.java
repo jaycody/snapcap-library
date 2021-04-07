@@ -1,4 +1,4 @@
-package template.library;
+package snapcap.library;
 
 
 import processing.core.*;
@@ -11,10 +11,10 @@ import processing.core.*;
  * (the tag example followed by the name of an example included in folder 'examples' will
  * automatically include the example in the javadoc.)
  *
- * @example Hello 
+ * @example HelloSnap 
  */
 
-public class HelloLibrary {
+public class SnapCap {
 	
 	// myParent is a reference to the parent sketch
 	PApplet myParent;
@@ -31,7 +31,7 @@ public class HelloLibrary {
 	 * @example Hello
 	 * @param theParent the parent PApplet
 	 */
-	public HelloLibrary(PApplet theParent) {
+	public SnapCap(PApplet theParent) {
 		myParent = theParent;
 		welcome();
 	}
@@ -43,7 +43,7 @@ public class HelloLibrary {
 	
 	
 	public String sayHello() {
-		return "hello library.";
+		return "hello SnapCap library.";
 	}
 	/**
 	 * return the version of the Library.

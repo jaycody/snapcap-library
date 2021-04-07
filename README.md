@@ -43,7 +43,7 @@ There are two options to import the template project into Eclipse: using a Git [
 1. Add Processing to the project build path.
   * Open your project's "Properties" window. 
   * Under "Java Build Path", select the "Libraries" tab and then "Add External JARs...". 
-  * Locate and add Processing's `core.jar` to your build path. It is recommended that a copy of `core.jar` is located in your Eclipse workspace in a `libs` folder. If the `libs` folder does not exist yet, create it. Read the [section below](#AddingJARs) regarding where to find the `core.jar` file.
+  * Locate and add Processing's `core.jar` to your build path. It is recommended that a copy of `core.jar` is located in your Eclipse workspace in a `libs` folder. If the `libs` folder does not exist yet, create it. Read the section below regarding where to find the `core.jar` file.
   * Confirm the setup with "OK".
 1. Edit the Library properties.
   * Open the `resources` folder inside of your Java project and double-click the `build.properties` file. You should see its contents in the Eclipse editor. 
@@ -66,7 +66,7 @@ To distribute your Library please refer to the [Library Guidelines](https://gith
 
 If you want to share your Library's source code, we recommend using an online repository available for free at [GitHub](https://github.com/).
 
-## <a name='AddingJARs'/>Adding core.jar and other .jar files to your classpath</a>
+## Adding core.jar and other .jar files to your classpath
 
 The `core.jar` file contains the core classes of Processing and has to be part of your classpath when building a Library. On Windows and Linux, this file is located in the Processing distribution folder inside a folder named `lib`. On Mac OS X, right-click the Processing.app and use "Show Package Contents" to see the guts. The `core.jar` file is inside Contents → Resources → Java. For further information about the classes in `core.jar`, you can see the source [here](http://code.google.com/p/processing/source/browse/trunk/processing#processing/core) and the developer documentation [here](http://processing.googlecode.com/svn/trunk/processing/build/javadoc/core/index.html).
 
